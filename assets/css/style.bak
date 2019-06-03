@@ -83,6 +83,7 @@ label#toggleLabel {
   #toggle:checked + .navLinks {
     background-color: #eaeaea;
     display: flex;
+    float: left;
     flex-direction: column;
     border: 1px solid black;
     z-index: 999;
