@@ -77,13 +77,10 @@ h1 {
 }
 
 .container {
+  text-align: center;
   margin-top: 1.5em;
   height: 100%;
   width: 95%;
-}
-
-.container p {
-  /* margin: 0; */
 }
 
 .content {
