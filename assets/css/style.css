@@ -95,6 +95,24 @@ h1 {
   padding-bottom: 2em;
 }
 
+.where {
+  margin-top: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+.where a {
+  font-size: 2.5em;
+  text-decoration: none;
+  color: black;
+  transition: ease-in 0.2s;
+  padding: 1em;
+}
+
+.where a:hover {
+  color: #4aaaa5;
+}
+
 section {
   margin: 0 auto;
   width: 95%;
