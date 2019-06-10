@@ -32,14 +32,14 @@
         <section>
             <h1 id="section-h1">Contact</h1>
             <div class="form-wrap">
-                <form>
+                <form onsubmit="event.preventDefault()">
                     <label for="name">Name</label>
                     <input placeholder="John Smith" id="name" type="text">
                     <label for="email">Email</label>
                     <input placeholder="example@gmail.com" id="email" type="text">
                     <label for="message">Message</label>
                     <textarea placeholder="..." id="message"></textarea>
-                    <button id="contactBtn">Submit</button>
+                    <button type="submit" id="contactBtn">Submit</button>
                 </form>
             </div>
         </section>
